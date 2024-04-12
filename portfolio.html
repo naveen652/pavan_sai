@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .navbar {
+            position: sticky;
+        }
+
+        #profile {
+            border-radius: 50%;
+            margin: 0px 10px 0px 25px;
+        }
+
+        .nav-items {
+            margin-right: 25px;
+           color: beige;
+        }
+
+        .dhoni-ms {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 350px;
+            height: 357px;
+            border-radius: 50%;
+            margin-top: 70px;
+            margin-bottom: 40px;
+        }
+
+        .text-order {
+            margin-top: 180px;
+
+            text-align: justify !important;
+
+        }
+
+        .pb {
+            padding-bottom: 20px;
+        }
+
+        .progress {
+            height: 25px;
+        }
+
+        .card-title {
+            color: black
+        }
+
+        .card-text {
+            color: black
+        }
+
+
+        hr {
+            background-color: white;
+            margin-top: 90px;
+            margin-bottom: 90px;
+        }
+
+        .icon {
+
+            padding-left: 25px;
+        }
+
+        .icons {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #393646;
+            margin-top: 100px;
+            padding-left: 40px;
+        }
+        .navbar-dark .navbar-nav .nav-link{
+            color:red;
+        }
+        h2 {
+            color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!------------------------------------------------------------------ nav bar -------------------------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg sticky-top  bg-dark">
+        <img src="C:\Users\ommip\OneDrive\Desktop\psphoto.jpg" alt="Avatar"
+            width="45px" height="45px" id="profile">
+        <a class="navbar-brand" href="#">OMMI PAVAN SAI</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-items justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Profile">Profile<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#Education"> Education</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Skills">Skills </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Interests">Interests</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!------------------------------------------------------------------ profile -------------------------------------------------------------------------------->
+
+    <div class="container-fluid profile">
+        <img src= alt="dhoni"
+            class="dhoni-ms">
+        <center>
+            <div>
+                <h1> I AM PAVAN SAI</h1>
+                <h5> Frontend Web Desginer</h5>
+                <div class="container icons">
+                    
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <!------------------------------------------------------------------ text-order -------------------------------------------------------------------------------->
+
+    <div class="container text-order" id="Profile">
+        <div class="object">
+            <h2>Profile</h2>
+            <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa
+                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <hr class="hr hr-blurry" />
+
+        <!------------------------------------------------------------------ education -------------------------------------------------------------------------------->
+
+        <div class="Education" id="Education">
+            <h2 class="pb">Education</h2>
+
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Education</th>
+                        <th scope="col">Institute</th>
+                        <th scope="col">Year of study</th>
+                        <th scope="col">CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S.S.C</td>
+                        <td>Sri Sarada Vidya Nilayam</td>
+                        <td>2016-2017</td>
+                        <td>9.5</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Narayana Junior college</td>
+                        <td>2017-2019</td>
+                        <td>9.3</td>
+                    </tr>
+                    <tr>
+                        <td>B.TECH(Mechanical engineering)</td>
+                        <td>Vignan's Institue Of Information Technology</td>
+                        <td>2019-2023</td>
+                        <td>7.4</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+        <hr class="hr hr-blurry" />
+
+        <!------------------------------------------------------------------ skills -------------------------------------------------------------------------------->
+
+        <div class="Skills" id="Skills">
+            <h2>Skills</h2>
+            <h4>JAVA</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                    aria-valuemax="100" style="width:70%">
+                </div>
+            </div>
+            <h4>Data Structures and Algorithms</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                    aria-valuemax="100" style="width:40%">
+                </div>
+            </div>
+            <h4>Servlets</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                    aria-valuemax="100" style="width:50%">
+                </div>
+            </div>
+            
+            <h3>Python</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100" style="width:60%">
+
+                </div>
+            </div>
+            
+            <h4>Html</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                    aria-valuemax="100" style="width:80%">
+
+                </div>
+            </div>
+            <h4>CSS</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                    aria-valuemax="100" style="width:70%">
+                </div>
+            </div>
+        </div>
+        <hr class="hr hr-blurry" />
+
+        <!------------------------------------------------------------------ projects -------------------------------------------------------------------------------->
+
+        <div class="projects" id="Projects">
+            <h2 class="pb">Projects</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src=https://www.cpsl.com/wp-content/uploads/2020/04/AdobeStock_175856268.jpeg
+                        class="card-img-top" alt="Hospital Management System">
+                    <div class="card-body">
+                        <h5 class="card-title">Hospital Management System using Java</h5>
+                        <p class="card-text">A hospital management system (HMS) is an integrated software application that handles different aspects of 
+                            a clinic's workflows, such as administrative, medical, legal, and financial. </p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQmwbUFNpmSvcmOyeW9YfNHNjERmLxWatEQ&usqp=CAU"
+                        class="card-img-top" alt="Quiz Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Quiz Game</h5>
+                        <p class="card-text">Developed a small quiz game using python. Which poses questions and
+                            gives
+                            the status weather right or wrong</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3JqyqGVMqwOFqWVFmXi9y3aqjrhIpOlsMQ&usqp=CAU"
+                        class="card-img-top" alt="Drone">
+                    <div class="card-body">
+                        <h5 class="card-title">Drone</h5>
+                        <p class="card-text">We have come up with Drone. It is used for medical supply during
+                            disaster
+                        </p>
+
+                    </div>
+                </div>
+                <!----
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlTwUSzqCP0NXM-gJla_nR6303-kBSMDTwVA&usqp=CAU"
+                        class="card-img-top" alt="Smoke Absorber">
+                    <div class="card-body">
+                        <h5 class="card-title">Smoke Absorber</h5>
+                        <p class="card-text">We have come up with Smoke Absorber is used to filter the interior air
+                            that
+                            pulls out harmful fumes and gases with carbon filter </p>
+
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+        </hr>
+        <hr class="hr hr-blurry" />
+
+        <!------------------------------------------------------------------ certificates -------------------------------------------------------------------------------->
+
+        <div class="Certificates" id="Certificates">
+            <h2> Certificates</h2>
+            <ul>
+                <li>Certified in C at CodeBrains</li>
+                <li>Certified in Python at Udemy</li>
+                <li>Completed Web Development Training on HTML,CSS and JavaScript at Bolt IoT </li>
+
+            </ul>
+        </div>
+        <hr class="hr hr-blurry" />
+
+        <!------------------------------------------------------------------ interests -------------------------------------------------------------------------------->
+
+        <div class="Interests" id="Interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Developing Web Applications (would love to develop pages at free time)</li>
+                <li>Web Surfing (helps for innovative UI)</li>
+                <li>Cricket and Chess</li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div style="display: flex;justify-content: space-between; padding-top: 5px;">
+            <p>mail: pavansai986635@gmail.com </p>
+            <p style="padding-right: 40px;">Contact: 9390128040</p>
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+    <!------------------------------------------------------------------ scripts -------------------------------------------------------------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+</body>
+
+</html>
